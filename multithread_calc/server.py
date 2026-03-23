@@ -72,7 +72,7 @@ def avvia_server(indirizzo, porta):
         # Ciclo infinito per accettare e gestire connessioni multiple
         while True:
             ricevi_connessioni (sock_server)
-            print(f" Server in ascolto su {indirizzo}:{porta} ----")
+            print(f" Server in ascolto su {indirizzo}: {porta} ----")
 
 
 # --- MAIN ---
